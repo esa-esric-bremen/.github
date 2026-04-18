@@ -23,7 +23,8 @@ This code can be used as reference implementation for similar systems or to lear
     -  HX711 weight cells (note that this code is translated from [this python code](https://github.com/tatobari/hx711py/blob/master/hx711.py) to C++ with support of Google Gemini)
     -  INA228 current/voltage measurement (not used in the challenge as we used an ADS1115)
     -  l298n motor control
-    -  GPIO using wiring-pi
+    -  GPIO using the [wiring-pi](https://github.com/WiringPi/WiringPi) modern rewrite
+    -  vcgencmd to get the CPU temperature and throttled information
 1. A system to control a robot using a modern UI-framework.
 
 ## System Overview
