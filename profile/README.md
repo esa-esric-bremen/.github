@@ -10,10 +10,56 @@ This git organisation hosts the repositories with the code that was used in the 
 ## Motivation
 This code can be used as reference implementation for similar systems or to learn how to use certain libraries.
 
-## Overview
-- **controller-web**: Robot controller that forwards incoming commands from the browser via WebSocket.
-- **client-pi**: Raspberry Pi Client using [Robot Remote Control](https://github.com/dfki-ric/robot_remote_control) in C++
-- **svelte-ui**: [svelte](https://svelte.dev) based Web User Interface in TypeScript using [svelte-material-ui](https://sveltematerialui.com/) and [smui-gamepad-components](https://codeberg.org/brean/smui-gamepad-components) to control the robot and excavation system with a gamepad.
+## Repository Overview
+
+<table cellpadding="0" cellspacing="0">
+    <tr>
+        <td>
+            <img src="beast.png" width="80px" alt="Docker Compose Logo by Bjorn Lammers">
+        </td>
+        <td>
+            <a href="https://github.com/esa-esric-bremen/controller-web"><b>Controller Web</b></a>
+        </td>
+        <td>
+            Robot controller that forwards incoming commands from the browser via WebSocket.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <img src="Raspberry_Pi_Logo.svg" width="80px">
+        </td>
+        <td>
+            <a href="https://github.com/esa-esric-bremen/client-pi"><b>Client Pi</b></a>
+        </td>
+        <td>
+            Raspberry Pi Client using <a href="https://github.com/dfki-ric/robot_remote_control">Robot Remote Control</a> in C++
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <img src="svelte-logo-square.png" width="80px">
+        </td>
+        <td>
+            <a href="https://github.com/esa-esric-bremen/svelte-ui"><b>Svelte UI</b></a>
+        </td>
+        <td>
+            <a href="https://svelte.dev">Svelte</a> based Web User Interface in TypeScript using <a href="https://sveltematerialui.com">svelte-material-ui</a> and <a href="https://codeberg.org/brean/smui-gamepad-components">smui-gamepad-components</a> to control the robot and excavation system with a gamepad.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <img src="docker-compose.png" width="80px">
+        </td>
+        <td>
+            <a href="https://github.com/esa-esric-bremen/esa-src-docker-env"><b>docker-env</b></a>
+        </td>
+        <td>
+            Docker Environment as development environment simulating the Hardware and testing the UI (hosts the other repositories as submodules)
+        </td>
+    </tr>
+</table>
+
+- **svelte-ui**: 
 - **docker-env**: Docker Environment as development environment simulating the Hardware and testing the UI (hosts the other repositories as )
 
 ### Why is this interesting for you?
