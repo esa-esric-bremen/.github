@@ -29,7 +29,7 @@ This code can be used as reference implementation for similar systems or to lear
             <img src="Raspberry_Pi_Logo.svg" width="80px">
         </td>
         <td>
-            <a href="https://github.com/esa-esric-bremen/client-pi"><b>Client Pi</b></a>
+            <a href="https://github.com/esa-esric-bremen/client_pi"><b>Client Pi</b></a>
         </td>
         <td>
             Raspberry Pi Client using <a href="https://github.com/dfki-ric/robot_remote_control">Robot Remote Control</a> in C++
